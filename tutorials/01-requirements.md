@@ -13,7 +13,7 @@ You have access to EECSVM service.
 
 Next, we need to install the `eecs6446-hkh` bundle, which sets up three Ubuntu VMs for you.
 ```sh
-% eecsvm installbundle eecs6446-hkh
+% eecsvm installbundle eecs4222-alirezap
 ```
 This will create three virtual machines named ubuntu1, ubuntu2, and ubuntu3. You’ll see messages showing their creation and registration (with UUIDs and progress percentages).
 
