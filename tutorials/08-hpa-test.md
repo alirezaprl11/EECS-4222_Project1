@@ -7,21 +7,21 @@ Kubernetes' built-in autosclaer called [Horizontal Pod Autoscaler (HPA)](https:/
 Clone this project's git repository:
 
 ```sh
-$ git clone https://github.com/hamzehkhazaei/EECS6446_project
+$ git clone https://github.com/alirezaprl11/EECS-4222_Project1
 ```
 
 Before moving to our jupyter notebook, we need to install the dependencies of our
 experimentation script. To do so, you can run the following command:
 
 ```sh
-$ cd EECS6446_project/notebooks/
+$ cd EECS-4222_Project1/notebooks/
 $ pip install -r requirements.txt
 ```
 
-To open the jupyter notebook (EECS6446_project/notebooks/experiment.ipynb) go to its' directory and run jupyter notebook:
+To open the jupyter notebook (EECS-4222_Project1/notebooks/experiment.ipynb) go to its' directory and run jupyter notebook:
 
 ```sh
-$ cd EECS6446_project/notebooks/
+$ cd EECS-4222_Project1/notebooks/
 $ jupyter notebook
 ```
 
@@ -35,7 +35,7 @@ $ ssh -N -f -L 8888:localhost:8888 common@localhost -p 46150
 
 This notebook includes an integration of all the components we have deployed
 to our cluster and uses their respective APIs to get monitoring/actionable data.
-You can see a preview of the jupyter notebook on [GitHub](https://github.com/hamzehkhazaei/EECS4222_Project_1/blob/master/notebooks/experiment.ipynb).
+You can see a preview of the jupyter notebook on [GitHub](https://github.com/alirezaprl11/EECS-4222_Project1/blob/master/notebooks/experiment.ipynb).
 
 While running the experiment, you can monitor the status of the deployments using provided
 interfaces as well as the commandline:
