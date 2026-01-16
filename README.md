@@ -1,4 +1,4 @@
-# EECS6446: Project 1 (15%)
+# EECS4222: Project 1
 **Title:** Horizontal Autoscaling for Cloud Microservices
    
 
