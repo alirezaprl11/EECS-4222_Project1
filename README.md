@@ -2,7 +2,7 @@
 **Title:** Horizontal Autoscaling for Cloud Microservices
    
 
-Welcome to `EECS6446` course project. In this project, you will deploy a sample
+Welcome to `EECS4222` course project. In this project, you will deploy a sample
 application based on microservice architecture on a `Kubernetes` cluster. Then you exercise various
 pre-defined autoscaling strategies to handle/investigate fluctuations in the applied workload to your cluster.
 
