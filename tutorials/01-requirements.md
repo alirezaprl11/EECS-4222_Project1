@@ -11,7 +11,7 @@ We’ll be using the [EECSVM Service](https://wiki.eecs.yorku.ca/dept/tdb/servic
 You have access to EECSVM service.
 ```
 
-Next, we need to install the `eecs6446-hkh` bundle, which sets up three Ubuntu VMs for you.
+Next, we need to install the `eecs4222-alirezap` bundle, which sets up three Ubuntu VMs for you.
 ```sh
 % eecsvm installbundle eecs4222-alirezap
 ```
