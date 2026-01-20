@@ -27,4 +27,4 @@ Here is the table of contents for phase 1:
 |9    | [Submission and Evaluation](tutorials/09-phase1-evaluation.md) |
 
 Should you have any questions or issues, please post them in the course's forum
-or [open an issue on GitHub](https://github.com/hamzehkhazaei/EECS6446_Project/issues/new/choose).
+or [open an issue on GitHub](https://github.com/alirezaprl11/EECS-4222_Project1/issues/new/choose).
