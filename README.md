@@ -26,5 +26,4 @@ Here is the table of contents for phase 1:
 |8    | [Testing the Horizontal Pod Autoscaler](tutorials/08-hpa-test.md) |
 |9    | [Submission and Evaluation](tutorials/09-phase1-evaluation.md) |
 
-Should you have any questions or issues, please post them in the course's forum
-or [open an issue on GitHub](https://github.com/alirezaprl11/EECS-4222_Project1/issues/new/choose).
+Should you have any questions or issues, please post them in the course's forum.
