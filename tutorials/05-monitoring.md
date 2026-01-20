@@ -30,11 +30,11 @@ kubectl create ns monitoring
 helm install prometheus prometheus-community/kube-prometheus-stack -n monitoring \
     --set prometheus.prometheusSpec.scrapeInterval=10s
 # patch service to make it accessible
-kubectl patch svc/prometheus-kube-prometheus-prometheus -n monitoring --patch "$(curl -sSL https://raw.githubusercontent.com/hamzehkhazaei/EECS6446_project/master/files/prom-svc.yaml)"
+kubectl patch svc/prometheus-kube-prometheus-prometheus -n monitoring --patch "$(curl -sSL https://raw.githubusercontent.com/alirezaprl11/EECS-4222_Project1/master/files/prom-svc.yaml)"
 # patch grafana service to change it to port 3000
 kubectl patch svc/prometheus-grafana -n monitoring --type='json' -p='[{"op": "replace", "path": "/spec/ports/0/port", "value": 3000}]'
 # patch grafana service to change the service to load balancer type
-kubectl patch svc/prometheus-grafana -n monitoring --patch "$(curl -sSL https://raw.githubusercontent.com/hamzehkhazaei/EECS6446_project/master/files/grafana-svc.yaml)"
+kubectl patch svc/prometheus-grafana -n monitoring --patch "$(curl -sSL https://raw.githubusercontent.com/alirezaprl11/EECS-4222_Project1/master/files/grafana-svc.yaml)"
 ```
 
 Now, let's check the status of the deployment:
